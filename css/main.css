@@ -1,6 +1,7 @@
 /* Grid container CSS */
 /*  Author: Jaime C Smith - Mental Health Therapist
-Date:   05/15/2020
+Date:   05/15/2020 */
+
 
 /* Hover for links visited */
 a:hover {
@@ -96,11 +97,20 @@ h2 {
   background-color: beige;
 } */
 
-.col-lg-14 {
+.carousel-item{
 
-  /* background-color: antiquewhite; */
-
+margin-left: 4px;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 .grid-container-index {
@@ -111,7 +121,7 @@ h2 {
   grid-template-areas: '.';
   width: 100%;
   margin-right: 1rem;
-  /* background-color: darkgoldenrod; */
+  background-color: rgb(220,220,220); 
   
   
   /* background-color: rgb(255, 230, 234); */
@@ -212,6 +222,33 @@ fieldset.scheduler-border {
   }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 @media screen and (max-width: 750px) {
   table {
