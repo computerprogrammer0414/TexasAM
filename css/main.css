@@ -1,0 +1,238 @@
+/* Grid container CSS */
+/*  Author: Jaime C Smith - Mental Health Therapist
+Date:   05/15/2020
+Class:  IT3212 - Intro to Web Development
+School: Capella University
+Assignment: Unit 05 */
+
+/* Hover for links visited */
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: purple;
+}
+
+/* Carrousel CSS code */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+h6,
+h3 {
+  text-align: center;
+  font-family: 'BioRhyme', serif;
+  font-size: 14px;
+  margin-right: 2px;
+}
+
+body,
+div,
+table {
+  color: #000000;
+  font-family: 'BioRhyme', serif;
+  font-weight: 400;
+  word-break: normal;
+}
+
+img {
+  max-height: 250px;
+  margin: -3px;
+  padding: 1px;
+  
+}
+
+
+
+p {
+  margin-left: 6px;
+  margin-right: 4px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+
+iframe {
+  border: 4px solid red;
+}
+
+.color1 {
+  background-color: aqua;
+}
+
+a.disabled {
+  color: gray;
+  pointer-events: none;
+
+}
+
+.blueText {
+
+  color: rgb(0, 123, 255);
+  font-weight: 800;
+  font-size: 25px;
+}
+
+h1 {
+  margin-bottom: 0.5em;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 87.5%;
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr;
+  gap: 0px 0px;
+  grid-template-areas: '.';
+  width: 100%;
+  
+  
+  /* background-color: rgb(255, 230, 234); */
+}
+
+/* End of Grid Container CSS */
+
+
+/* Floater CSS code for Table */
+.floater td {
+  padding: 4px;
+  border: 1px solid black;
+  font-family: 'BioRhyme', serif;
+  font-size: 16px;
+}
+
+.floater th {
+  padding: 5px;
+  border: 1px solid black;
+  background: rgb(0, 123, 255);
+  color: white;
+}
+
+.colorwhite {
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: 'BioRhyme', serif;
+
+}
+
+/* TABLE SECTION */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;700&display=swap');
+
+
+body {
+  font-family: 'BioRhyme', serif;
+  font-size: 16px;
+  margin-left: 8px;
+  word-wrap: break-word;
+}
+
+h5,
+h4 {
+  font-family: 'BioRhyme', serif;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+table {
+  border: 2px solid rgb(0, 0, 0);
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+table tr {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+table th {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: rgb(0, 123, 255);
+}
+
+
+/* Legend for Form */
+fieldset.scheduler-border {
+  border: 1px groove #ddd !important;
+  padding: 0 1.4em 1.4em 1.4em !important;
+  margin: 0 0 1.5em 0 !important;
+  -webkit-box-shadow:  0px 0px 0px 0px #000;
+          box-shadow:  0px 0px 0px 0px #000;
+}
+
+  legend.scheduler-border {
+      font-size: 1.2em !important;
+      font-weight: bold !important;
+      text-align: left !important;
+      width:auto;
+      padding:0 10px;
+      border-bottom:none;
+  }
+
+
+
+@media screen and (max-width: 750px) {
+  table {
+    border: 0px;
+  }
+
+  table thead {
+    display: none;
+  }
+
+  table tr {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  table td {
+    border-top: 1px dotted rgb(0, 0, 0);
+    border-bottom: 1px dotted rgb(0, 0, 0);
+    border-left: 0px;
+    border-right: 0px;
+
+    display: block;
+    font-size: 13px;
+    text-align: right;
+  }
+
+  table td:last-child {
+    border-bottom: 1;
+  }
+
+  table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
