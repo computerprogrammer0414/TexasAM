@@ -79,6 +79,21 @@ h2 {
   font-size: 87.5%;
 }
 
+.breadcrumb {background: rgba(245, 245, 245, 0.03); border: 0px solid rgba(245, 245, 245, 1); border-radius: 4px;}
+.breadcrumb li {font-size: 14px;}
+.breadcrumb a {color: rgba(66, 139, 202, 1);}
+.breadcrumb a:hover {color: rgba(42, 100, 150, 1);}
+.breadcrumb>.active {color: rgba(153, 153, 153, 1);}
+.breadcrumb>li+li:before {color: rgba(204, 204, 204, 1); content: "\002F\00a0";}
+
+a.disabled {
+  /* Make the disabled links grayish*/
+  color: gray;
+  /* And disable the pointer events */
+  pointer-events: none;
+}
+
+
 .carousel-item {
   margin-left: 4px;
 }
@@ -102,6 +117,15 @@ h2 {
   ;
 }
 
+.grid-container-anxiety {
+  display: grid;
+  gap: 0px 0px;
+  grid-template-areas: '.';
+  width: 100%;
+  margin-right: 1rem;
+  background-color: rgb(255,255,230)
+  ;
+}
 
 
 /* Floater CSS code for Table */
@@ -227,4 +251,15 @@ legend.scheduler-border {
   margin-right: auto;
   width: 95%;
   }
+
+  .breadcrumb{
+    display:none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .breadcrumb{
+    display:none;
+  }
+
 }
