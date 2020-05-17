@@ -85,14 +85,24 @@ h2 {
 
 .grid-container-index {
   display: grid;
-  /* grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr; */
   gap: 0px 0px;
   grid-template-areas: '.';
   width: 100%;
   margin-right: 1rem;
   background-color: rgb(220, 220, 220);
 }
+
+.grid-container-depression {
+  display: grid;
+  gap: 0px 0px;
+  grid-template-areas: '.';
+  width: 100%;
+  margin-right: 1rem;
+  background-color: rgb(230,236,255)
+  ;
+}
+
+
 
 /* Floater CSS code for Table */
 
@@ -179,6 +189,8 @@ legend.scheduler-border {
   border-bottom: none;
 }
 
+/* RESPONSIVE SECTION HERE */
+
 @media screen and (max-width: 750px) {
   table {
     border: 0px;
@@ -208,5 +220,11 @@ legend.scheduler-border {
     float: left;
     font-weight: bold;
     text-transform: uppercase;
+  }
+  img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
   }
 }
