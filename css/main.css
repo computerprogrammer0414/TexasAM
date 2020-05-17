@@ -128,6 +128,18 @@ a.disabled {
 }
 
 
+.grid-container-schizophrenia {
+  display: grid;
+  gap: 0px 0px;
+  grid-template-areas: '.';
+  width: 100%;
+  margin-right: 1rem;
+  background-color: rgb(230,255,230)
+  ;
+}
+
+
+
 /* Floater CSS code for Table */
 
 .floater td {
@@ -246,7 +258,7 @@ legend.scheduler-border {
     text-transform: uppercase;
   }
   img{
-    display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 95%;
@@ -255,7 +267,15 @@ legend.scheduler-border {
   .breadcrumb{
     display:none;
   }
+ .audio{
+  
+ display: none;
+
+ }
+
 }
+
+
 
 @media screen and (max-width: 1000px) {
   .breadcrumb{
