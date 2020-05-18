@@ -17,6 +17,10 @@ a:visited {
   color: purple;
 }
 
+.card img{
+  height:100%;
+}
+
 /* Carrousel CSS code */
 
 .carousel-inner img {
