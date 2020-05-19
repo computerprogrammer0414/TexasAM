@@ -134,6 +134,12 @@ a.disabled {
   border-radius: 12px;
 
 }
+
+.card-header{
+  border-radius: 12px;
+}
+
+
 .grid-container-depression {
   display: grid;
   border-radius: 12px;
@@ -193,7 +199,7 @@ a.disabled {
 body {
   font-family: 'BioRhyme', serif;
   font-size: 16px;
-  margin-left: 8px;
+  margin-left: -30px;
   word-wrap: break-word;
 }
 
